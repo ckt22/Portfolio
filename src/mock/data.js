@@ -35,7 +35,7 @@ export const projectsData = [
     info:
       'This Q&A box appears on all SKU pages. Logged in customers may ask a question about the product. Customers can also view published questions and rate them.',
     info2:
-      'Front End using HTML5, CSS3, JavaScript, while Back End using GoLang. We also used PostgresSQL for database and Docker for launching the website.',
+      'Front End using HTML5, CSS3, JavaScript, while Back End using GoLang. We also used PostgresSQL for database and Docker for deploying the website.',
     url: 'https://www.mysilkway.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -53,7 +53,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: 'I am more than thrilled for a chat!',
+  cta: 'I welcome all kinds of opportunities.',
   btn: 'Email me!',
   email: 'cktangad@connect.ust.hk',
 };
