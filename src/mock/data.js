@@ -33,8 +33,9 @@ export const projectsData = [
     img: 'Q&A_Customer_Portal_Selected.png',
     title: 'Product Q&A Customer Portal for mysilkway.com',
     info:
-      'This Q&A box appears on all SKU pages. Logged in customers may ask a question about the product.',
-    info2: 'Customers can also view published questions and rate them.',
+      'This Q&A box appears on all SKU pages. Logged in customers may ask a question about the product. Customers can also view published questions and rate them.',
+    info2:
+      'Front End using HTML5, CSS3, JavaScript, while Back End using GoLang. We also used PostgresSQL for database and Docker for launching the website.',
     url: 'https://www.mysilkway.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
@@ -42,8 +43,9 @@ export const projectsData = [
     id: uuidv1(),
     img: 'Q&A_Admin_Portal_Selected.png',
     title: 'Product Q&A Admin Portal for mysilkway.com',
-    info: 'The admin portal handles received Q&As for all SKUs.',
-    info2: 'It supports functions such as publish, unpublish, reply and ignore questions.',
+    info:
+      'The admin portal handles received Q&As for all SKUs. It supports functions such as publish, unpublish, reply and ignore questions.',
+    info2: 'The administrator portal is for internal use and is therefore unavailable to public.',
     // url: 'https://www.mysilkway.com/',
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
