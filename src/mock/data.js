@@ -46,7 +46,7 @@ export const projectsData = [
     info:
       'The admin portal handles received Q&As for all SKUs. It supports functions such as publish, unpublish, reply and ignore questions.',
     info2: 'The administrator portal is for internal use and is therefore unavailable to public.',
-    url: 'https://www.mysilkway.com/',
+    // url: 'https://www.mysilkway.com/', // if no data, the button will not show up
     // repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
