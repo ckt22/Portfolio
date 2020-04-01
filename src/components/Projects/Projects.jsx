@@ -81,30 +81,23 @@ const Projects = () => {
                     distance="30px"
                   >
                     <div className="project-wrapper__image">
-                      <a
-                        href={url || '#!'}
-                        target="_blank"
-                        aria-label="Project Link"
-                        rel="noopener noreferrer"
+                      <Tilt
+                        options={{
+                          reverse: false,
+                          max: 8,
+                          perspective: 1000,
+                          scale: 1,
+                          speed: 300,
+                          transition: true,
+                          axis: null,
+                          reset: true,
+                          easing: 'cubic-bezier(.03,.98,.52,.99)',
+                        }}
                       >
-                        <Tilt
-                          options={{
-                            reverse: false,
-                            max: 8,
-                            perspective: 1000,
-                            scale: 1,
-                            speed: 300,
-                            transition: true,
-                            axis: null,
-                            reset: true,
-                            easing: 'cubic-bezier(.03,.98,.52,.99)',
-                          }}
-                        >
-                          <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
-                          </div>
-                        </Tilt>
-                      </a>
+                        <div data-tilt className="thumbnail rounded">
+                          <ProjectImg alt={title} filename={img} />
+                        </div>
+                      </Tilt>
                     </div>
                   </Fade>
                 </Col>
@@ -118,3 +111,10 @@ const Projects = () => {
 };
 
 export default Projects;
+// <a // at line 84
+//   href={url || '#!'}
+//   target="_blank"
+//   aria-label="Project Link"
+//   rel="noopener noreferrer"
+// >
+// </a>  at line 102
